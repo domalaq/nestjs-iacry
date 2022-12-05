@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.12 (2022-12-05)
+
+
+### Features
+
+* Add ability to pipe DIs val values ([7cf5456](https://github.com/AlexanderC/nestjs-iacry/commit/7cf5456482db0b63da057c8ad0a8b3ccc04f8a41))
+* Add caching ([8466ebb](https://github.com/AlexanderC/nestjs-iacry/commit/8466ebb0c4beccc2cd7ff2fbcaec8b1430d21e9c))
+* Add Firewall setup shorthand ([d39bfd2](https://github.com/AlexanderC/nestjs-iacry/commit/d39bfd230c1973f5e5b657d0ab46ad2a5a40a1b4))
+* Add support for mode Sid policies for sequelize ([8b54308](https://github.com/AlexanderC/nestjs-iacry/commit/8b543082dd94f826d43253e851a85bb517b26fbe))
+* Allow handling policies by Sid ([23164dc](https://github.com/AlexanderC/nestjs-iacry/commit/23164dca8ab34908eb5b48b13080e69165537cad))
+
+
+### Bug Fixes
+
+* Dependencies issues ([1d4d56e](https://github.com/AlexanderC/nestjs-iacry/commit/1d4d56ef2e69894c955a07d7710f59dc66191a38))
+* Fix array resources ([1e7d9fe](https://github.com/AlexanderC/nestjs-iacry/commit/1e7d9fed160ef36ffefab904515b2294c7f7c21f))
+* Fix build script ([79e11bb](https://github.com/AlexanderC/nestjs-iacry/commit/79e11bba8076640de83de84eb2bf0b7c0254681d))
+* Fix Firewall shorthand ([bf2f17a](https://github.com/AlexanderC/nestjs-iacry/commit/bf2f17a39977d0541b79fd134394638abef13524))
+* Matcher case insensitive on no strict mode ([c69eed9](https://github.com/AlexanderC/nestjs-iacry/commit/c69eed9c0ab40821fb9e688034a30e94e5e08b86))
+* Rename module and service as it might t might had caused issues w/ DI ([4c4f0ac](https://github.com/AlexanderC/nestjs-iacry/commit/4c4f0ace33a7e084ceee344eba02d0d613c3e35c))
+
 ### [0.0.10](https://github.com/AlexanderC/nestjs-iacry/compare/v0.0.9...v0.0.10) (2020-09-02)
 
 
