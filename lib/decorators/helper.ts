@@ -17,13 +17,13 @@ export function processTemplate(template: string, context: object): string {
     let [definition, varPath] = match;
     varPath = varPath.trim();
 
-    if (!dotProp.has(context, varPath)) {
+    if (!dotProp.hasProperty(context, varPath)) {
       throw new DecoratorError(
         `Unable to find ${varPath} property in Request from metadata field`,
       );
     }
 
-    let varValue = dotProp.get(context, varPath);
+    let varValue: any = dotProp.getProperty(context, varPath);
 
     if (isEntity(varValue)) {
       varValue = toPlainDynamicIdentifier(varValue);
